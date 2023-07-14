@@ -1,4 +1,4 @@
-# Customer_Churn Analysis and Prediction
+# Customer Churn Analysis and Prediction
 
 The examination of a company's customer loss rate is known as churn analysis. We perform an exploratory data analysis on a dataset of eCommerce to get some useful insights which will help us identify the characteristics of churned customers.
 
