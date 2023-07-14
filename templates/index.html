@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>e-Commerce Customer Churn</title>
+    </head>
+    <body style="background:#d4a3ae;">
+        <center>
+        <div class="login">
+            <h1 style="color:#000;">Customer Churn Prediction</h1>
+            <form action="{{url_for('predict')}}"method="post">
+                <b>1: <input style="height:40px;width:300px" type="text" name="Tenure" placeholder="Tenure period(in months)" required="required" /><br><br>
+                2: <input style="height:40px;width:300px" type="text" name="WarehouseToHome" placeholder="Distance of warehouse from home" required="required" /><br><br>
+                3: <input style="height:40px;width:300px" type="text" name="Complain" placeholder="If compaint-1, if no complaints-0" required="required" /><br><br>
+                4: <input style="height:40px;width:300px" type="text" name="DaySinceLastOrder" placeholder="No. of days since last order" required="required" /><br><br>
+                5: <input style="height:40px;width:300px" type="text" name="CashbackAmount" placeholder="Amount of Cashback" required="required" /><br><br>
+                6: <input style="height:40px;width:300px" type="text" name="MaritalStatus_Married" placeholder="If married-1, if not married-0" required="required" /><br><br>
+                7: <input style="height:40px;width:300px" type="text" name="MaritalStatus_Single" placeholder="If single-1, if not single-0" required="required" /><p>
+                </b>
+
+                <button style="height:40px;width:100px" type="submit" class="btn btn-primary btn-block btn-large">Predict</button></p>
+            </form>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="color:#000;">
+            {{prediction_text}}</h2>
+            </center>
+        </div>
+    </body>
+</html>
