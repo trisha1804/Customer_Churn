@@ -20,7 +20,7 @@ It's crucial that your churn rate stays as low as it can and doesn't outpace you
 
 Why Churn Analysis?
 
--Acquiring a new customer is costlier in than retaining an old one.
+-Acquiring a new customer is costlier than retaining an old one.
 
 -Churned customers give less to no revenue.
 
